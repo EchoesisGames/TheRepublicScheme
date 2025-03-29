@@ -1,0 +1,194 @@
+﻿{
+	"Physics": {
+		"001": {
+			"Name": "经典力学",
+			"Night": "关系解析",
+			"Rarity": "N",
+			"Type": "Efficiency",
+			"Description": "",
+			"Entries": [
+				"001",
+				"002"
+			]
+		},
+		"002": {
+			"Name": "电磁感应",
+			"Night": "相互作用",
+			"Rarity": "N",
+			"Type": "Structure",
+			"Description": "",
+			"Entries": [
+				"001",
+				"002"
+			]
+		}
+	},
+	"Engineering": {
+		"001": {
+			"Name": "土木工程",
+			"Night": "基础思维",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Action",
+			"Entries": [
+				"001",
+				"002"
+			]
+		},
+		"002": {
+			"Name": "交通工程",
+			"Night": "系统思维",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Action",
+			"Entries": [
+				"001",
+				"002"
+			]
+		}
+	},
+	"Chemistry": {
+		"001": {
+			"Name": "酸碱中和",
+			"Night": "动态平衡",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Normal",
+			"Entries": [
+				"001",
+				"002"
+			]
+		},
+		"002": {
+			"Name": "金属腐蚀",
+			"Night": "变化分析",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Study",
+			"Entries": [
+				"001",
+				"002"
+			]
+		}
+	},
+	"ComputerScience": {
+		"001": {
+			"Name": "数据结构",
+			"Night": "问题分解",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Normal",
+			"Entries": [
+				"001",
+				"002"
+			]
+		},
+		"002": {
+			"Name": "编译原理",
+			"Night": "系统优化思维",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Normal",
+			"Entries": [
+				"001",
+				"002"
+			]
+		}
+	},
+	"Economics": {
+		"001": {
+			"Name": "产品市场",
+			"Night": "产品思维",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Structure",
+			"Entries": [
+				"001",
+				"002"
+			]
+		},
+		"002": {
+			"Name": "劳动力市场",
+			"Night": "供需思维",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Structure",
+			"Entries": [
+				"001",
+				"002"
+			]
+		}
+	},
+	"Sociology": {
+		"001": {
+			"Name": "习俗调查",
+			"Night": "差异思维",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Efficiency",
+			"Entries": [
+				"001",
+				"002"
+			]
+		},
+		"002": {
+			"Name": "社会阶层",
+			"Night": "分层思维",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Structure",
+			"Entries": [
+				"001",
+				"002"
+			]
+		}
+	},
+	"Literature": {
+		"001": {
+			"Name": "《霍乱时期的爱情》",
+			"Night": "永恒爱情",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Structure",
+			"Entries": [
+				"001",
+				"002"
+			]
+		},
+		"002": {
+			"Name": "《悉达多》",
+			"Night": "灵性追求",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Structure",
+			"Entries": [
+				"001",
+				"002"
+			]
+		}
+	},
+	"Psychology": {
+		"001": {
+			"Name": "精神分析",
+			"Night": "未知领域",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Structure",
+			"Entries": [
+				"001",
+				"002"
+			]
+		},
+		"002": {
+			"Name": "内在动机",
+			"Night": "行为驱动",
+			"Rarity": "N",
+			"Description": "",
+			"Type": "Structure",
+			"Entries": [
+				"001",
+				"002"
+			]
+		}
+	}
+}
