@@ -1,194 +1,2038 @@
-﻿{
-	"Physics": {
-		"001": {
-			"Name": "经典力学",
-			"Night": "关系解析",
-			"Rarity": "N",
-			"Type": "Efficiency",
-			"Description": "",
-			"Entries": [
-				"001",
-				"002"
-			]
-		},
-		"002": {
-			"Name": "电磁感应",
-			"Night": "相互作用",
-			"Rarity": "N",
-			"Type": "Structure",
-			"Description": "",
-			"Entries": [
-				"001",
-				"002"
-			]
-		}
-	},
-	"Engineering": {
-		"001": {
-			"Name": "土木工程",
-			"Night": "基础思维",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Action",
-			"Entries": [
-				"001",
-				"002"
-			]
-		},
-		"002": {
-			"Name": "交通工程",
-			"Night": "系统思维",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Action",
-			"Entries": [
-				"001",
-				"002"
-			]
-		}
-	},
-	"Chemistry": {
-		"001": {
-			"Name": "酸碱中和",
-			"Night": "动态平衡",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Normal",
-			"Entries": [
-				"001",
-				"002"
-			]
-		},
-		"002": {
-			"Name": "金属腐蚀",
-			"Night": "变化分析",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Study",
-			"Entries": [
-				"001",
-				"002"
-			]
-		}
-	},
-	"ComputerScience": {
-		"001": {
-			"Name": "数据结构",
-			"Night": "问题分解",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Normal",
-			"Entries": [
-				"001",
-				"002"
-			]
-		},
-		"002": {
-			"Name": "编译原理",
-			"Night": "系统优化思维",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Normal",
-			"Entries": [
-				"001",
-				"002"
-			]
-		}
-	},
-	"Economics": {
-		"001": {
-			"Name": "产品市场",
-			"Night": "产品思维",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Structure",
-			"Entries": [
-				"001",
-				"002"
-			]
-		},
-		"002": {
-			"Name": "劳动力市场",
-			"Night": "供需思维",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Structure",
-			"Entries": [
-				"001",
-				"002"
-			]
-		}
-	},
-	"Sociology": {
-		"001": {
-			"Name": "习俗调查",
-			"Night": "差异思维",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Efficiency",
-			"Entries": [
-				"001",
-				"002"
-			]
-		},
-		"002": {
-			"Name": "社会阶层",
-			"Night": "分层思维",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Structure",
-			"Entries": [
-				"001",
-				"002"
-			]
-		}
-	},
-	"Literature": {
-		"001": {
-			"Name": "《霍乱时期的爱情》",
-			"Night": "永恒爱情",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Structure",
-			"Entries": [
-				"001",
-				"002"
-			]
-		},
-		"002": {
-			"Name": "《悉达多》",
-			"Night": "灵性追求",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Structure",
-			"Entries": [
-				"001",
-				"002"
-			]
-		}
-	},
-	"Psychology": {
-		"001": {
-			"Name": "精神分析",
-			"Night": "未知领域",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Structure",
-			"Entries": [
-				"001",
-				"002"
-			]
-		},
-		"002": {
-			"Name": "内在动机",
-			"Night": "行为驱动",
-			"Rarity": "N",
-			"Description": "",
-			"Type": "Structure",
-			"Entries": [
-				"001",
-				"002"
-			]
-		}
-	}
+{
+  "Physics": {
+    "001": {
+      "Name": "经典力学",
+      "Night": "关系解析",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "造成[b][color=#FF3300]8[/color][/b]点伤害",
+      "Entries": [
+      ]
+    },
+    "002": {
+      "Name": "电磁感应",
+      "Night": "相互作用",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "笔记本上每有[b]1[/b]张卡牌，造成[b][color=#FF3300]2[/color][/b]点伤害",
+      "Entries": [
+      ]
+    },
+    "003": {
+      "Name": "热力学",
+      "Night": "动态平衡",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "造成[b][color=#FF3300]1[/color][/b]点伤害\n成长：改为[b][color=#FF3300]4[/color][/b]点伤害",
+      "Entries": [
+        "007"
+      ]
+    },
+    "004": {
+      "Name": "天体物理",
+      "Night": "系统演化",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "2层；分支：\n造成[b][color=#FF3300]12[/color][/b]点伤害；\n获得[b][color=#00CC66]3[/color][/b]点护甲值",
+      "Entries": [
+        "009"
+      ]
+    },
+    "005": {
+      "Name": "声波干涉",
+      "Night": "叠加态",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "造成[b][color=#FF3300]2[/color][/b]点伤害",
+      "Entries": [
+      ]
+    },
+    "006": {
+      "Name": "单摆实验",
+      "Night": "周期性",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "造成[b][color=#FF3300]3[/color][/b]点伤害；[color=#0099FF]滞留2[/color]",
+      "Entries": [
+        "002"
+      ]
+    },
+    "007": {
+      "Name": "光学",
+      "Night": "折射",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "减少受到伤害的[b][color=#00CC66]50%[/color][/b]；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "008": {
+      "Name": "电磁波实验",
+      "Night": "传播机制",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "对敌人添加一层[color=#FF3300]易伤[/color]",
+      "Entries": [
+        "024"
+      ]
+    },
+    "009": {
+      "Name": "弹性碰撞",
+      "Night": "恢复力",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "减少[b][color=#0099FF]1[/color][/b]个时刻；[color=#0000FF]引导[/color]：额外增加[b][color=#0099FF]1[/color][/b]个时刻",
+      "Entries": [
+        "003"
+      ]
+    },
+    "010": {
+      "Name": "放射性实验",
+      "Night": "衰变",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "减少[b][color=#0099FF]4[/color][/b]个时刻，造成[b][color=#FF3300]24[/color][/b]点伤害",
+      "Entries": []
+    },
+    "011": {
+      "Name": "阿基米德原理",
+      "Night": "平衡与稳定",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "[color=#AA22FF]领悟[/color]；摸[b][color=#0099FF]1[/color][/b]张牌，获得[b][color=#0099FF]1[/color][/b]层专注",
+      "Entries": [
+        "017",
+        "019"
+      ]
+    },
+    "012": {
+      "Name": "热膨胀",
+      "Night": "变化适应",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "摸[b][color=#0099FF]1[/color][/b]张牌，弃[b]1[/b]张牌，提高[b][color=#00CC66]2[/color][/b]点执行力",
+      "Entries": []
+    },
+    "013": {
+      "Name": "表面张力",
+      "Night": "界面现象",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "获得[b][color=#00CC66]1[/color][/b]点护甲值；[color=#AA22FF]失衡3[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "014": {
+      "Name": "欧姆定律",
+      "Night": "阻力思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "获得[color=#00CC66]二级坚韧[/color]，持续两回合",
+      "Entries": [
+        "015"
+      ]
+    },
+    "015": {
+      "Name": "热传导",
+      "Night": "传递效率",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "每有[b]1[/b]点护甲值，造成[b][color=#FF3300]5[/color][/b]点伤害",
+      "Entries": []
+    },
+    "016": {
+      "Name": "量子力学",
+      "Night": "不确定性",
+      "Rarity": "SR",
+      "Type": "Study",
+      "Description": "每次造成伤害时[b]25%[/b]概率翻倍，[b]5%[/b]概率无效",
+      "Entries": []
+    },
+    "017": {
+      "Name": "黑洞吸积实验",
+      "Night": "极端条件",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "弃[b]3[/b]张牌，每弃1张造成[b][color=#FF3300]12[/color][/b]点伤害\n[color=#0099FF]涌现[/color]：摸[b][color=#0099FF]2[/color][/b]张牌",
+      "Entries": [
+        "011"
+      ]
+    },
+    "018": {
+      "Name": "暗物质探测",
+      "Night": "未知领域",
+      "Rarity": "SR",
+      "Type": "Study",
+      "Description": "显示卡组最上方的一张卡牌",
+      "Entries": []
+    },
+    "019": {
+      "Name": "高能物理实验",
+      "Night": "能量转化",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "[color=#AA22FF]领悟[/color]；消耗所有专注力，每消耗一点，摸[b][color=#0099FF]1[/color][/b]张牌并增加[b][color=#00CC66]4[/color][/b]点执行力",
+      "Entries": [
+        "017"
+      ]
+    },
+    "020": {
+      "Name": "自旋电子",
+      "Night": "内禀力",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "造成[b][color=#FF3300]4[/color][/b]点伤害，获得[b][color=#0099FF]1[/color][/b]层专注；[color=#0099FF]滞留2[/color]",
+      "Entries": [
+        "002",
+        "019"
+      ]
+    },
+    "021": {
+      "Name": "宇宙微波观测",
+      "Night": "起源意识",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "[color=#AA22FF]领悟[/color]；造成敌人活动数[b][color=#FF3300]400%[/color][/b]的伤害",
+      "Entries": [
+        "017"
+      ]
+    },
+    "022": {
+      "Name": "引力透镜观测",
+      "Night": "弯曲空间",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "每使用1张物理学科卡牌，造成[b][color=#FF3300]2[/color][/b]点伤害",
+      "Entries": [
+      ]
+    },
+    "023": {
+      "Name": "平行空间",
+      "Night": "维度拓展",
+      "Rarity": "SSR",
+      "Type": "Action",
+      "Description": "4层；[color=#0000FF]连锁[/color]，获得执行力[color=#00CC66][b]50%[/b][/color]的护甲值",
+      "Entries": [
+        "010"
+      ]
+    },
+    "024": {
+      "Name": "统一场论",
+      "Night": "万物相连",
+      "Rarity": "SSR",
+      "Type": "Construct",
+      "Description": "所有卡牌可视为任意学科",
+      "Entries": []
+    },
+    "025": {
+      "Name": "超对称性",
+      "Night": "对称与破缺",
+      "Rarity": "SSR",
+      "Type": "Normal",
+      "Description": "下回合将敌人血量设为[b]0[/b]\n每剩余[b][color=#00CC66]1[/color][/b]个时刻，敌人的血量增加[b][color=#FF3300]8[/color][/b]点",
+      "Entries": []
+    }
+  },
+  "Engineering": {
+    "001": {
+      "Name": "土木工程",
+      "Night": "基础思维",
+      "Rarity": "R",
+      "Description": "3层；造成[b][color=#FF3300]4[/color][/b]点伤害\n[color=#0099FF]涌现[/color]：造成[b][color=#FF3300]8[/color][/b]点伤害",
+      "Type": "Action",
+      "Entries": [
+        "011"
+      ]
+    },
+    "002": {
+      "Name": "交通工程",
+      "Night": "系统思维",
+      "Rarity": "R",
+      "Description": "2层；摸[b][color=#0099FF]1[/color][/b]张牌\n[color=#0099FF]涌现[/color]：摸[b][color=#0099FF]2[/color][/b]张牌",
+      "Type": "Action",
+      "Entries": [
+        "011"
+      ]
+    },
+    "003": {
+      "Name": "电气工程",
+      "Night": "可靠性",
+      "Rarity": "R",
+      "Description": "4层；获得[b][color=#00CC66]1[/color][/b]点护甲值\n[color=#0099FF]涌现[/color]：获得[b][color=#00CC66]二级坚韧[/color][/b]，持续两回合",
+      "Type": "Action",
+      "Entries": [
+        "011",
+        "015"
+      ]
+    },
+    "004": {
+      "Name": "结构工程",
+      "Night": "强度优化",
+      "Rarity": "R",
+      "Description": "3层；[color=#0000FF]连锁[/color]，获得[b][color=#0099FF]1[/color][/b]张[i]结构化[/i]",
+      "Type": "Action",
+      "Entries": [
+        "010",
+        "016"
+      ]
+    },
+    "005": {
+      "Name": "海洋工程",
+      "Night": "资源整合",
+      "Rarity": "R",
+      "Description": "随机触发[b]1[/b]个行动，恢复[b][color=#00CC66]1[/color][/b]个时刻",
+      "Type": "Normal",
+      "Entries": [
+      ]
+    },
+    "006": {
+      "Name": "激光加工",
+      "Night": "精益制造",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "6层；[color=#0000FF]连锁[/color]，没有效果\n[color=#0099FF]涌现[/color]：造成[b][color=#FF3300]24[/color][/b]点伤害",
+      "Entries": [
+        "010",
+        "011"
+      ]
+    },
+    "007": {
+      "Name": "传感器技术",
+      "Night": "精益监测",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "8层；[color=#0000FF]连锁[/color]，造成[b][color=#FF3300]2[/color][/b]点伤害",
+      "Entries": [
+        "010"
+      ]
+    },
+    "008": {
+      "Name": "制造工艺",
+      "Night": "工艺思维",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "[color=#8B0000]期望[/color]：主动使用行动；\n造成[b][color=#FF3300]2[/color][/b]点伤害\n成长：改为[b][color=#FF3300]4[/color][/b]点",
+      "Entries": [
+        "004",
+        "007"
+      ]
+    },
+    "009": {
+      "Name": "内燃机",
+      "Night": "能效优化",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "每回合第[b]1[/b]次行动不耗时间；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "010": {
+      "Name": "精密机械",
+      "Night": "精益思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[color=#AA22FF]领悟[/color];获取等同行动数量的[i]精益制造[/i]",
+      "Entries": [
+        "017",
+        "029"
+      ]
+    },
+    "011": {
+      "Name": "自动化控制",
+      "Night": "生产效率",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "随机触发1个行动；[color=#AA22FF]失衡6[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "012": {
+      "Name": "能源管理",
+      "Night": "节能思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "所有行动增加[b]1[/b]层；[color=#0099FF]滞留1[/color]",
+      "Entries": [
+        "002"
+      ]
+    },
+    "013": {
+      "Name": "智能电网",
+      "Night": "调度思维",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "移除1个行动，将其层数转移至另一行动",
+      "Entries": []
+    },
+    "014": {
+      "Name": "生物仿生",
+      "Night": "启发思维",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "n层；复制1个行动的主动使用效果和层数\n[color=#0099FF]涌现[/color]：重新获得此卡",
+      "Entries": [
+        "011"
+      ]
+    },
+    "015": {
+      "Name": "水利工程",
+      "Night": "规划思维",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "行动区每有[b]1[/b]个行动，获得[b][color=#00CC66]1[/color][/b]点护甲值；[color=#AA22FF]失衡3[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "016": {
+      "Name": "超高速轨道",
+      "Night": "动态响应",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：一回合内触发4个不同行动\n获得[color=#00CC66]二级坚韧[/color]，持续4回合",
+      "Entries": [
+        "001",
+        "015"
+      ]
+    },
+    "017": {
+      "Name": "环境修复",
+      "Night": "可持续发展",
+      "Rarity": "SR",
+      "Type": "Study",
+      "Description": "本回合若主动使用过行动，恢复[b][color=#0099FF]1[/color][/b]个时刻；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "018": {
+      "Name": "智能城市",
+      "Night": "智能化",
+      "Rarity": "SR",
+      "Type": "Study",
+      "Description": "随机触发1个行动",
+      "Entries": []
+    },
+    "019": {
+      "Name": "深海探测",
+      "Night": "未知领域",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "从牌库选择[b]1[/b]张牌加入手牌",
+      "Entries": []
+    },
+    "020": {
+      "Name": "清洁能源",
+      "Night": "密度思维",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "4层；[color=#0000FF]连锁[/color]，获得[b][color=#0099FF]1[/color][/b]层专注",
+      "Entries": [
+        "010",
+        "019"
+      ]
+    },
+    "021": {
+      "Name": "热能回收",
+      "Night": "可持续发展",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "[rainbow]不朽[/rainbow]；移除[b]1[/b]个层数为[b]1[/b]的行动，将其置入手牌，获得[b][color=#00CC66]1[/color][/b]点护甲值",
+      "Entries": [
+        "014"
+      ]
+    },
+    "022": {
+      "Name": "生物工程",
+      "Night": "伦理决策",
+      "Rarity": "SSR",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：主动使用12次行动\n恢复[b][color=#0099FF]12[/color][/b]个时刻",
+      "Entries": [
+        "001"
+      ]
+    },
+    "023": {
+      "Name": "零能耗建筑",
+      "Night": "绿色设计",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "[color=#8B0000]期望[/color]：使用其他学科的卡牌；\n触发所有的行动；[color=#AA22FF]失衡3[/color]",
+      "Entries": [
+        "004",
+        "006"
+      ]
+    },
+    "024": {
+      "Name": "空间站",
+      "Night": "模块化设计",
+      "Rarity": "SSR",
+      "Type": "Action",
+      "Description": "8层；没有效果\n[color=#0099FF]涌现[/color]：造成[b][color=#FF3300]40[/color][/b]点伤害",
+      "Entries": [
+        "011"
+      ]
+    },
+    "025": {
+      "Name": "超强度合金",
+      "Night": "创新思维",
+      "Rarity": "SSR",
+      "Type": "Action",
+      "Description": "行动2，行动区上限[b]+1[/b]",
+      "Entries": [
+      ]
+    }
+  },
+  "Chemistry": {
+    "001": {
+      "Name": "酸碱中和",
+      "Night": "动态平衡",
+      "Rarity": "R",
+      "Description": "[color=#AA22FF]领悟[/color]；造成[b][color=#FF3300]4[/color][/b]点伤害，恢复[b][color=#00CC66]1[/color][/b]个时刻",
+      "Type": "Normal",
+      "Entries": [
+        "017"
+      ]
+    },
+    "002": {
+      "Name": "金属腐蚀",
+      "Night": "变化分析",
+      "Rarity": "R",
+      "Description": "对敌人添加一层[color=#00CC66]虚弱[/color]；[color=#AA22FF]失衡2[/color]",
+      "Type": "Study",
+      "Entries": [
+        "006",
+        "018"
+      ]
+    },
+    "003": {
+      "Name": "气体反应",
+      "Night": "速率思维其一",
+      "Rarity": "R",
+      "Description": "该卡上的[b]进修卡[/b]效果产生[b]400[/b]；[color=#AA22FF]失衡1[/color]",
+      "Type": "Study",
+      "Entries": [
+        "006"
+      ]
+    },
+    "004": {
+      "Name": "液体反应",
+      "Night": "速率思维其二",
+      "Rarity": "R",
+      "Description": "该卡上的[b]进修卡[/b]效果产生[b]300%[/b]；[color=#AA22FF]失衡2[/color]",
+      "Type": "Study",
+      "Entries": [
+        "006"
+      ]
+    },
+    "005": {
+      "Name": "固体反应",
+      "Night": "速率思维其三",
+      "Rarity": "R",
+      "Description": "该卡上的[b]进修卡[/b]效果产生[b]200%[/b]；[color=#AA22FF]失衡4[/color]",
+      "Type": "Study",
+      "Entries": [
+        "006"
+      ]
+    },
+    "006": {
+      "Name": "电解实验",
+      "Night": "迁移思维",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "造成[b][color=#FF3300]3[/color][/b]点伤害；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "007": {
+      "Name": "色谱分析",
+      "Night": "分离思维",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "复制构筑区的[b]1[/b]个构筑",
+      "Entries": []
+    },
+    "008": {
+      "Name": "聚合反应",
+      "Night": "合成思维",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "摧毁[b]1[/b]个构筑，[color=#FFD700]培育[/color]其他构筑[b]3[/b]次",
+      "Entries": [
+        "008"
+      ]
+    },
+    "009": {
+      "Name": "氧化还原",
+      "Night": "可逆思维",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "增加[b][color=#00CC66]2[/color][/b]点执行力；[color=#AA22FF]失衡2[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "010": {
+      "Name": "酶活性实验",
+      "Night": "催化思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "选择一个化学构筑，触发全部的[color=#AA22FF]失衡[/color]层数（至多[b]4[/b]次）",
+      "Entries": [
+        "006"
+      ]
+    },
+    "011": {
+      "Name": "化学平衡",
+      "Night": "平衡与稳定",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "[color=#AA22FF]领悟[/color]；本回合的剩余时间，每使用[b]1[/b]张牌，抽[b][color=#0099FF]1[/color][/b]张牌",
+      "Entries": [
+        "017"
+      ]
+    },
+    "012": {
+      "Name": "碳酸盐反应",
+      "Night": "配位性",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "获得[b][color=#00CC66]1[/color][/b]点护甲值；[color=#AA22FF]失衡3[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "013": {
+      "Name": "同位素标记",
+      "Night": "追踪分析",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "受伤害时反弹[b][color=#FF3300]2[/color][/b]点伤害；[color=#AA22FF]失衡8[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "014": {
+      "Name": "化学量",
+      "Night": "定量思维",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "3层；抽[b][color=#0099FF]2[/color][/b]张牌\n[color=#0099FF]涌现[/color]：再抽[b][color=#0099FF]2[/color][/b]张牌",
+      "Entries": [
+        "011"
+      ]
+    },
+    "015": {
+      "Name": "纳米材料",
+      "Night": "微观思维",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "该卡上的[b]进修卡[/b]效果产生[b]200%[/b]；[color=#AA22FF]失衡2[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "016": {
+      "Name": "胶体实验",
+      "Night": "体系思维",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "4层；[color=#0000FF]连锁[/color]，构筑区每有[b]1[/b]张卡牌，造成[b][color=#FF3300]1[/color][/b]点伤害",
+      "Entries": [
+        "010"
+      ]
+    },
+    "017": {
+      "Name": "超导材料",
+      "Night": "零阻力",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "造成[b][color=#FF3300]2[/color][/b]点伤害并立即触发所有构筑",
+      "Entries": []
+    },
+    "018": {
+      "Name": "多功能材料",
+      "Night": "多效合一",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "获得[b][color=#00CC66]1[/color][/b]护甲值或造成[b][color=#FF3300]4[/color][/b]点伤害，每回合变化一次；[color=#0099FF]滞留3[/color]",
+      "Entries": [
+        "002"
+      ]
+    },
+    "019": {
+      "Name": "高效吸附材料",
+      "Night": "选择性",
+      "Rarity": "SR",
+      "Type": "Construct",
+      "Description": "该卡上的[b]进修卡[/b]效果产生[b]200%[/b]，获得[b][color=#00CC66]1[/color][/b]护甲值；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "020": {
+      "Name": "碳纳米管",
+      "Night": "结构化",
+      "Rarity": "SR",
+      "Type": "Study",
+      "Description": "该构筑每回合触发次数[b]+1[/b]",
+      "Entries": []
+    },
+    "021": {
+      "Name": "反应路径设计",
+      "Night": "路径规划",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "[color=#AA22FF]领悟[/color]；选择一个构筑，将你其他构筑上的进修卡移动至此构筑",
+      "Entries": [
+        "017"
+      ]
+    },
+    "022": {
+      "Name": "分子自组装",
+      "Night": "自组织思维",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "[rainbow]不朽[/rainbow]；造成[b][color=#FF3300]4[/color][/b]点伤害；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "006",
+        "014"
+      ]
+    },
+    "023": {
+      "Name": "基因化学",
+      "Night": "系统优化思维",
+      "Rarity": "SSR",
+      "Type": "Action",
+      "Description": "4层；获取[b]1[/b]张随机化学[b]构筑卡[/b]",
+      "Entries": []
+    },
+    "024": {
+      "Name": "时空化学",
+      "Night": "时序协调思维",
+      "Rarity": "SSR",
+      "Type": "Normal",
+      "Description": "[color=#AA22FF]领悟[/color]；选择并获取[b]1[/b]个构筑及其进修卡，为他们添加[color=#AA22FF]领悟[/color]词条",
+      "Entries": [
+        "017"
+      ]
+    },
+    "025": {
+      "Name": "反重力材料",
+      "Night": "调控思维",
+      "Rarity": "SSR",
+      "Type": "Normal",
+      "Description": "本局对战你的构筑不会触发[color=#8B0000]衰退[/color]",
+      "Entries": [
+        "025"
+      ]
+    }
+  },
+  "ComputerScience": {
+    "001": {
+      "Name": "数据结构",
+      "Night": "问题分解",
+      "Rarity": "R",
+      "Description": "造成[b][color=#FF3300]2[/color][/b]点伤害；[color=#0099FF]滞留3[/color]",
+      "Type": "Normal",
+      "Entries": [
+        "002"
+      ]
+    },
+    "002": {
+      "Name": "编译原理",
+      "Night": "系统优化思维",
+      "Rarity": "R",
+      "Description": "获得[b][color=#00CC66]1[/color][/b]点护甲值；[color=#0099FF]滞留2[/color]",
+      "Type": "Normal",
+      "Entries": [
+        "002"
+      ]
+    },
+    "003": {
+      "Name": "数据库系统",
+      "Night": "信息组织",
+      "Rarity": "R",
+      "Description": "回合开始时，在笔记本添加一张[i]空白卡[/i]\n成长：改为[b]2[/b]张",
+      "Type": "Construct",
+      "Entries": [
+        "007",
+        "026"
+      ]
+    },
+    "004": {
+      "Name": "操作系统",
+      "Night": "用户思维",
+      "Rarity": "R",
+      "Description": "笔记本上每有一张卡牌，造成[b][color=#FF3300]1[/color][/b]点伤害\n成长：改为[b][color=#FF3300]2[/color][/b]点伤害",
+      "Type": "Construct",
+      "Entries": [
+        "007"
+      ]
+    },
+    "005": {
+      "Name": "编程语言",
+      "Night": "抽象思维",
+      "Rarity": "R",
+      "Description": "造成[b][color=#FF3300]3[/color][/b]点伤害；[b][color=#0000FF]引导[/color][/b]：额外造成[b][color=#FF3300]1[/color][/b]点伤害",
+      "Type": "Construct",
+      "Entries": [
+        "003"
+      ]
+    },
+    "006": {
+      "Name": "分布式计算",
+      "Night": "并行思路",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "增加[b][color=#00CC66]0[/color][/b]点执行力；[color=#0000FF]引导[/color]：额外增加[b][color=#00CC66]1[/color][/b]点执行力",
+      "Entries": [
+        "003"
+      ]
+    },
+    "007": {
+      "Name": "密码学",
+      "Night": "安全意识",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "获得[b][color=#00CC66]0[/color][/b]点护甲值；[color=#0000FF]引导[/color]：额外获得[color=#00CC66]1[/color][/b]点护甲值",
+      "Entries": [
+        "003"
+      ]
+    },
+    "008": {
+      "Name": "网络协议",
+      "Night": "信息传播",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "获得[b][color=#0099FF]0[/color][/b]层专注；[color=#0000FF]引导[/color]：额外获得[b][color=#0099FF]1[/color][/b]层专注",
+      "Entries": [
+        "003"
+      ]
+    },
+    "009": {
+      "Name": "软件工程",
+      "Night": "项目制",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "无效果；[color=#0099FF]滞留4[/color]",
+      "Entries": [
+        "002"
+      ]
+    },
+    "010": {
+      "Name": "云计算",
+      "Night": "虚拟化",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "打牌区额外结算[b]1[/b]次；[color=#AA22FF]失衡2[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "011": {
+      "Name": "计算理论",
+      "Night": "复杂性",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "该构筑上每有一张进修卡，获取[b]1[/b]张[i]空白卡[/i]；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "006",
+        "026"
+      ]
+    },
+    "012": {
+      "Name": "信息检索",
+      "Night": "信息获取",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "4层；从卡组中获得一张带有指定词条的卡牌，分支：\n选取[b]1[/b]张[b]构筑卡[/b]；\n选取[b]1[/b]张[b]引导卡[/b]；\n选取[b]1[/b]张[b]进修卡[/b]；\n选取[b]1[/b]张[b]滞留卡[/b]",
+      "Entries": [
+        "002",
+        "003",
+        "009"
+      ]
+    },
+    "013": {
+      "Name": "人机交互",
+      "Night": "体验优化",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "4层；[color=#0000FF]连锁[/color]，添加[b]1[/b]张[i]空白卡[/i]到笔记本\n[color=#0099FF]涌现[/color]：获取[b][color=#0099FF]2[/color][/b]张[i]空白卡[/i]",
+      "Entries": [
+        "010",
+        "026"
+      ]
+    },
+    "014": {
+      "Name": "计算几何",
+      "Night": "信息化",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "打牌区每有[b]1[/b]张卡，获得[b][color=#00CC66]1[/color][/b]点护甲值",
+      "Entries": []
+    },
+    "015": {
+      "Name": "多媒体数据",
+      "Night": "信息融合",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "清空笔记本，每摧毁[b]1[/b]张卡恢复[b][color=#0099FF]1[/color][/b]个时刻",
+      "Entries": []
+    },
+    "016": {
+      "Name": "大数据处理",
+      "Night": "数据洞察",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：打牌区超过[b]8[/b]张卡\n[rainbow]不朽[/rainbow]；造成[b][color=#FF3300]2[/color][/b]点伤害；[color=#0000FF]引导[/color]：额外造成[b][color=#FF3300]2[/color][/b]点伤害",
+      "Entries": [
+        "001",
+        "003",
+        "014"
+      ]
+    },
+    "017": {
+      "Name": "区块链技术",
+      "Night": "去中心化",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "[rainbow]不朽[/rainbow]；获得笔记本上第一张卡的复制",
+      "Entries": [
+        "014"
+      ]
+    },
+    "018": {
+      "Name": "自然语言处理",
+      "Night": "语境分析",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "重新触发笔记本上此卡的前[b]2[/b]张卡;[color=#0099FF]滞留2[/color]",
+      "Entries": [
+        "002"
+      ]
+    },
+    "019": {
+      "Name": "分布式系统",
+      "Night": "协同处理",
+      "Rarity": "SR",
+      "Type": "Construct",
+      "Description": "[color=#8B0000]期望[/color]：一次造成≥[b][color=#FF3300]8[/color][/b]点伤害；\n获得[b][color=#00CC66]2[/color][/b]点护甲值",
+      "Entries": [
+        "004"
+      ]
+    },
+    "020": {
+      "Name": "高性能计算",
+      "Night": "计算效率",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "3层；随机获取[b]1[/b]张[b]引导卡[/b]",
+      "Entries": [
+        "003"
+      ]
+    },
+    "021": {
+      "Name": "隐私保护算法",
+      "Night": "数字隐匿化",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "[color=#AA22FF]领悟[/color];将所有手牌变为[i]空白卡[/i]并抽取相同数量的卡牌",
+      "Entries": [
+        "017",
+        "026"
+      ]
+    },
+    "022": {
+      "Name": "计算机伦理",
+      "Night": "责任伦理",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "每回合使用的第一张[b]普通卡[/b]不消耗专注力\n[color=#8B0000]期望[/color]：使用[b]效率卡[/b]；\n摧毁此进修",
+      "Entries": [
+        "004"
+      ]
+    },
+    "023": {
+      "Name": "智能互联",
+      "Night": "边缘计算",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "随机获取[b]1[/b]张[b]引导卡[/b]；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "003",
+        "006"
+      ]
+    },
+    "024": {
+      "Name": "虚拟现实",
+      "Night": "沉浸式环境",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "[i]空白卡[/i]可造成[b][color=#FF3300]4[/color][/b]点伤害",
+      "Entries": [
+        "026"
+      ]
+    },
+    "025": {
+      "Name": "AI模型训练",
+      "Night": "智能决策",
+      "Rarity": "SSR",
+      "Type": "Action",
+      "Description": "2层；分支：\n获得[b]2[/b]张计算机科学卡牌\n获得一张[i]DeepSleep[/i]\n获得一张[i]CheatGPT[/i]",
+      "Entries": [
+        "009",
+        "027",
+        "028"
+      ]
+    }
+  },
+  "Economics": {
+    "001": {
+      "Name": "产品市场",
+      "Night": "产品思维",
+      "Rarity": "R",
+      "Description": "提高[b][color=#FF3300]n[/color][/b]点执行力；[b][color=#FFD700]发展[/color][/b]",
+      "Type": "Construct",
+      "Entries": [
+        "005"
+      ]
+    },
+    "002": {
+      "Name": "劳动力市场",
+      "Night": "供需思维",
+      "Rarity": "R",
+      "Description": "获得[b][color=#0099FF]n[/color][/b]层专注；[b][color=#FFD700]发展[/color][/b]",
+      "Type": "Construct",
+      "Entries": [
+        "005",
+        "019"
+      ]
+    },
+    "003": {
+      "Name": "资本市场",
+      "Night": "投资思维",
+      "Rarity": "R",
+      "Description": "造成[b][color=#FF3300]2n+2[/color][/b]点伤害；[b][color=#FFD700]发展[/color][/b]",
+      "Type": "Construct",
+      "Entries": [
+        "005"
+      ]
+    },
+    "004": {
+      "Name": "宏观调控",
+      "Night": "宏观思维",
+      "Rarity": "R",
+      "Description": "[b]培育[/b]一个构筑[b]1[/b]次\n[b][color=#FF6600]续写[/color][/b]:额外[b]培育[/b][b]1[/b]次",
+      "Type": "Efficiency",
+      "Entries": [
+        "008",
+        "012"
+      ]
+    },
+    "005": {
+      "Name": "机会成本",
+      "Night": "权衡思维",
+      "Rarity": "R",
+      "Description": "[b]培育[/b]一个构筑[b]2[/b]次，本回合该构筑不触发",
+      "Type": "Normal",
+      "Entries": [
+        "008"
+      ]
+    },
+    "006": {
+      "Name": "货币政策",
+      "Night": "调节思维",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "[color=#8B0000]激发[/color]：一个构筑的发展层数≥[b]4[/b]\n[color=#8B0000]期望[/color]：本构筑被培育；\n[color=#AA22FF]追忆[/color][b]1[/b]次",
+      "Entries": [
+        "001",
+        "004",
+        "005",
+        "008",
+        "012"
+      ]
+    },
+    "007": {
+      "Name": "经济周期",
+      "Night": "周期思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[b]培育[/b]一个构筑[b]2[/b]次，该构筑下次[color=#8B0000]衰退[/color]额外触发[b]2[/b]次",
+      "Entries": [
+        "008",
+        "025"
+      ]
+    },
+    "008": {
+      "Name": "财政政策",
+      "Night": "预算思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "获得[b][color=#00CC66]1[/color][/b]点护甲值,[color=#AA22FF]追忆[/color][b]1[/b]次",
+      "Entries": [
+        "012"
+      ]
+    },
+    "009": {
+      "Name": "市场失灵",
+      "Night": "修正思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "构筑区所有构筑下次[color=#8B0000]衰退[/color]不触发",
+      "Entries": [
+        "025"
+      ]
+    },
+    "010": {
+      "Name": "竞争优势",
+      "Night": "战略思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：一个构筑的发展层数≥[b]4[/b]\n恢复[b][color=#0099FF]4[/color][/b]个时刻",
+      "Entries": [
+        "001",
+        "005"
+      ]
+    },
+    "011": {
+      "Name": "边际效应",
+      "Night": "增量思维",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "[color=#8B0000]期望[/color]：所在构筑被培育；\n造成[b][color=#FF3300]2[/color][/b]点伤害",
+      "Entries": [
+        "004",
+        "008"
+      ]
+    },
+    "012": {
+      "Name": "公共物品",
+      "Night": "共享思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "选择一个构筑，每有[b]1[/b]张其他学科的[b]进修卡[/b]，[b]培育[/b]此构筑1次",
+      "Entries": [
+        "008"
+      ]
+    },
+    "013": {
+      "Name": "垄断",
+      "Night": "规模思维",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "其他构筑的[b]培育[/b]转移至此",
+      "Entries": [
+        "008"
+      ]
+    },
+    "014": {
+      "Name": "通货膨胀",
+      "Night": "价值思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "双方获得[b]4[/b]层[color=#00CC66]虚弱[/color]",
+      "Entries": [
+        "018"
+      ]
+    },
+    "015": {
+      "Name": "经济增长",
+      "Night": "风险意识",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[rainbow]不朽[/rainbow]，[b]培育[/b]所有构筑[b]1[/b]次",
+      "Entries": [
+        "008",
+        "014"
+      ]
+    },
+    "016": {
+      "Name": "风险管理",
+      "Night": "风险意识",
+      "Rarity": "SR",
+      "Type": "Study",
+      "Description": "[color=#8B0000]激发[/color]：发展层数≥[b]8[/b]\n获得[b][color=#00CC66]1[/color][/b]点护甲值",
+      "Entries": [
+        "001",
+        "005"
+      ]
+    },
+    "017": {
+      "Name": "企业管理",
+      "Night": "组织效能",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "4层；选择一个构筑，使其下次[color=#8B0000]衰退[/color]无效",
+      "Entries": [
+        "025"
+      ]
+    },
+    "018": {
+      "Name": "消费者行为研究",
+      "Night": "决策分析",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "敌人每有[b]1[/b]个活动，[color=#AA22FF]追忆[/color][b]1[/b]次",
+      "Entries": [
+        "012"
+      ]
+    },
+    "019": {
+      "Name": "价格策略",
+      "Night": "锚定心理",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "[color=#AA22FF]领悟[/color]；选择一个构筑，本回合剩余的时间每使用[b]1[/b]张其他学科卡牌，[b]培育[/b]此构筑1次",
+      "Entries": [
+        "008",
+        "017"
+      ]
+    },
+    "020": {
+      "Name": "供应链管理",
+      "Night": "流程分析",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "若打牌区≥[b]4[/b]张卡，[b]培育[/b]所有构筑[b]1[/b]次；[color=#0099FF]滞留6[/color]，",
+      "Entries": [
+        "002",
+        "008"
+      ]
+    },
+    "021": {
+      "Name": "品牌设计",
+      "Night": "品牌思维",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "造成[b][color=#FF3300]4n[/color][/b]点伤害（n为所有构筑发展层数总和）",
+      "Entries": [
+        "005"
+      ]
+    },
+    "022": {
+      "Name": "完全信息市场",
+      "Night": "透明思维",
+      "Rarity": "SSR",
+      "Type": "Construct",
+      "Description": "摸牌时改为从卡组选择一张牌；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "023": {
+      "Name": "全球经济一体化",
+      "Night": "全球化",
+      "Rarity": "SSR",
+      "Type": "Normal",
+      "Description": "[b]培育[/b]一个构筑，并同步所有构筑的发展/失衡层数为最高值",
+      "Entries": [
+        "005",
+        "006",
+        "008"
+      ]
+    },
+    "024": {
+      "Name": "经济韧性",
+      "Night": "弹性思维",
+      "Rarity": "SSR",
+      "Type": "Action",
+      "Description": "[color=#0000FF]连锁[/color]，行动4，触发所有[color=#8B0000]衰退[/color]并获[b][color=#00CC66]2[/color][/b]护甲值；[color=#AA22FF]追忆[/color][b]1[/b]次",
+      "Entries": [
+        "025"
+      ]
+    },
+    "025": {
+      "Name": "智慧经济",
+      "Night": "智能化",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "受到伤害时，消耗所在构筑的[b]1[/b]层发展层数免疫伤害",
+      "Entries": [
+        "005"
+      ]
+    }
+  },
+  "Sociology": {
+    "001": {
+      "Name": "习俗调查",
+      "Night": "差异思维",
+      "Rarity": "R",
+      "Description": "选择1张牌弃掉，摸[b][color=#0099FF]2[/color][/b]张牌",
+      "Type": "Efficiency",
+      "Entries": [
+      ]
+    },
+    "002": {
+      "Name": "社会阶层",
+      "Night": "分层思维",
+      "Rarity": "R",
+      "Description": "[b][color=#8B0000]期望[/color][/b]：此构筑是构筑区卡牌数量最少的构筑；\n获得[b][color=#0099FF]1[/color][/b]张[i]阶级跃迁[/i]",
+      "Type": "Construct",
+      "Entries": [
+        "004",
+        "020"
+      ]
+    },
+    "003": {
+      "Name": "社会网络",
+      "Night": "关系网络",
+      "Rarity": "R",
+      "Description": "[b][color=#8B0000]期望[/color][/b]：此构筑是构筑区卡牌数量最多的构筑；\n获得[b][color=#0099FF]1[/color][/b]张[i]节点跃迁[/i]",
+      "Type": "Construct",
+      "Entries": [
+        "004",
+        "021"
+      ]
+    },
+    "004": {
+      "Name": "社会政策",
+      "Night": "过程决策",
+      "Rarity": "R",
+      "Description": "[b][color=#8B0000]期望[/color][/b]：你的构筑区至少有四个构筑；\n获得[b][color=#0099FF]1[/color][/b]张[i]颁布政策[/i]",
+      "Type": "Construct",
+      "Entries": [
+        "004",
+        "022"
+      ]
+    },
+    "005": {
+      "Name": "社会政策",
+      "Night": "过程决策",
+      "Rarity": "R",
+      "Description": "该构筑上每有[b]1[/b]张不同的[b]进修卡[/b]，造成[b][color=#FF3300]2[/color][/b]点伤害",
+      "Type": "Construct",
+      "Entries": [
+      ]
+    },
+    "006": {
+      "Name": "性别研究",
+      "Night": "平等思维",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "为手牌中所有[b]进修卡[/b]添加[color=#AA22FF]领悟[/color]词条",
+      "Entries": [
+        "017"
+      ]
+    },
+    "007": {
+      "Name": "社会变迁",
+      "Night": "演变思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "删除[b]1[/b]个构筑，每删除1张卡牌，恢复[b][color=#0099FF]1[/color][/b]个时刻",
+      "Entries": []
+    },
+    "008": {
+      "Name": "社会控制",
+      "Night": "规范与偏差",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "[color=#8B0000]激发[/color]：在一个回合内失去[b]4[/b]个时刻\n获得[b][color=#00CC66]1[/color][/b]点护甲值；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "001",
+        "006"
+      ]
+    },
+    "009": {
+      "Name": "媒体影响",
+      "Night": "信息传播",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "[color=#8B0000]激发[/color]：被添加Debuff\n获得[color=#00CC66]一级坚韧[/color]，持续一回合；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "001",
+        "006"
+      ]
+    },
+    "010": {
+      "Name": "社会福利制度",
+      "Night": "保障分配",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：你的构筑被摧毁\n使上一个被摧毁的构筑返回手牌",
+      "Entries": [
+        "001"
+      ]
+    },
+    "011": {
+      "Name": "家庭分析",
+      "Night": "强关系",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：在一个回合内，使用[b]2[/b]张社会学卡牌\n获得[b][color=#0099FF]2[/color][/b]层专注",
+      "Entries": [
+        "001",
+        "019"
+      ]
+    },
+    "012": {
+      "Name": "社会责任",
+      "Night": "责任伦理",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "获得[b][color=#00CC66]1[/color][/b]点护甲值\n[color=#8B0000]期望[/color]：本回合未使用社会学卡牌；\n减少[b][color=#0099FF]1[/color][/b]个时刻",
+      "Entries": [
+        "004"
+      ]
+    },
+    "013": {
+      "Name": "犯罪行为研究",
+      "Night": "预防与干预",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "废除敌人第[b]1[/b]个活动；[color=#0099FF]滞留3[/color]",
+      "Entries": [
+        "002"
+      ]
+    },
+    "014": {
+      "Name": "组织行为",
+      "Night": "组织效能",
+      "Rarity": "R",
+      "Type": "Construct",
+      "Description": "每使用[b]1[/b]张其他学科卡牌，造成[b][color=#FF3300]2[/color][/b]点伤害",
+      "Entries": []
+    },
+    "015": {
+      "Name": "社会分化研究",
+      "Night": "整合与调节",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[color=#AA22FF]领悟[/color]选择[b]1[/b]个构筑，获得其原始版复制",
+      "Entries": [
+        "017"
+      ]
+    },
+    "016": {
+      "Name": "群体融合",
+      "Night": "整合策略",
+      "Rarity": "SR",
+      "Type": "Study",
+      "Description": "随机获得[b]2[/b]张[b]进修卡[/b]效果；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "006"
+      ]
+    },
+    "017": {
+      "Name": "社会认同",
+      "Night": "强化认同",
+      "Rarity": "SR",
+      "Type": "Study",
+      "Description": "[color=#8B0000]激发[/color]：累计使用[b]6[/b]张社会学卡\n该构筑视为任意学科",
+      "Entries": [
+        "004"
+      ]
+    },
+    "018": {
+      "Name": "全球化研究",
+      "Night": "全球化",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "4层；获得[b]1[/b]张非社会学卡\n[color=#0099FF]涌现[/color]：获得[b][color=#0099FF]2[/color][/b]张社会学卡",
+      "Entries": [
+        "011"
+      ]
+    },
+    "019": {
+      "Name": "文化交融",
+      "Night": "多样性",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "[rainbow]不朽[/rainbow]；随机获得1张其他学科的[b]效率卡[/b]，并添加[color=#AA22FF]领悟[/color]词条",
+      "Entries": [
+        "014",
+        "017"
+      ]
+    },
+    "020": {
+      "Name": "社会资本积累",
+      "Night": "整合策略",
+      "Rarity": "SR",
+      "Type": "Study",
+      "Description": "[color=#8B0000]激发[/color]：累计使用[b]6[/b]张社会学卡\n未使用专注力累积至下回合",
+      "Entries": [
+        "004"
+      ]
+    },
+    "021": {
+      "Name": "公共空间分析",
+      "Night": "空间规划",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "构筑区上限[b]+1[/b]，行动区上限[b]+1[/b]",
+      "Entries": []
+    },
+    "022": {
+      "Name": "社会契约",
+      "Night": "共识观念",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "该构筑每回合触发次数[b]+2[/b],删除你的其他所有构筑，并将你的构筑区上限调整为[b]1[/b]",
+      "Entries": []
+    },
+    "023": {
+      "Name": "权力结构",
+      "Night": "分权与集权",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "每回合使用的第一张[b]进修卡[/b]不消耗专注力\n[color=#8B0000]期望[/color]：所在构筑还存在其他[b]进修卡[/b]；\n摧毁该进修",
+      "Entries": [
+        "004"
+      ]
+    },
+    "024": {
+      "Name": "社会信仰系统",
+      "Night": "社会精神",
+      "Rarity": "SSR",
+      "Type": "Construct",
+      "Description": "造成[b][color=#FF3300]6[/color][/b]点伤害\n[color=#8B0000]期望[/color]：本回合未使用社会学卡牌；\n摧毁该构筑",
+      "Entries": [
+        "004"
+      ]
+    },
+    "025": {
+      "Name": "民主理论",
+      "Night": "参与式决策",
+      "Rarity": "SSR",
+      "Type": "Action",
+      "Description": "4层；分支：\n选择一个构筑，本回合触发次数+[b]1[/b]；\n 随机获得[b]2[/b]张[b]效率卡[/b]；\n 弃所有手牌并移除敌人全部的活动",
+      "Entries": []
+    }
+  },
+  "Literature": {
+    "001": {
+      "Name": "《霍乱时期的爱情》",
+      "Night": "永恒爱情",
+      "Rarity": "R",
+      "Description": "[color=#AA22FF]追忆[/color][b]1[/b]次；[color=#AA22FF]失衡3[/color]",
+      "Type": "Construct",
+      "Entries": [
+        "006",
+        "012"
+      ]
+    },
+    "002": {
+      "Name": "《悉达多》",
+      "Night": "灵性追求",
+      "Rarity": "R",
+      "Description": "手牌中带有续写词条的卡牌层数[b]+1[/b]\n[b]成长[/b]：改为[b]+2[/b]层",
+      "Type": "Construct",
+      "Entries": [
+        "013",
+        "007"
+      ]
+    },
+    "003": {
+      "Name": "《一九八四》",
+      "Night": "极权主义",
+      "Rarity": "R",
+      "Description": "使用效率卡不消耗专注力，而是消耗[b][color=#00CC66]1[/color][/b]个时刻",
+      "Type": "Construct",
+      "Entries": [
+      ]
+    },
+    "004": {
+      "Name": "《傲慢与偏见》",
+      "Night": "爱情与阶层",
+      "Rarity": "R",
+      "Description": "获得[b][color=#0099FF]1[/color][/b]层专注\n[b][color=#8B0000]期望[/color][/b]：使用非效率卡；\n受到[b][color=#00CC66]1[/color][/b]个时刻的伤害",
+      "Type": "Study",
+      "Entries": [
+        "004",
+        "019"
+      ]
+    },
+    "005": {
+      "Name": "《白夜行》",
+      "Night": "爱与罪",
+      "Rarity": "R",
+      "Description": "[b][color=#8B0000]期望[/color][/b]：主动使用行动；\n[color=#AA22FF]追忆[/color][b]1[/b]次",
+      "Type": "Study",
+      "Entries": [
+        "004",
+        "012"
+      ]
+    },
+    "006": {
+      "Name": "《权力意志》",
+      "Night": "生存本能",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "每使用[b]1[/b]张卓越/永恒卡，[color=#AA22FF]追忆[/color][b]2[/b]次",
+      "Entries": [
+        "012"
+      ]
+    },
+    "007": {
+      "Name": "《野性的呼唤》",
+      "Night": "野性自然",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "造成[b][color=#FF3300]2[/color][/b]点伤害\n[color=#FF6600]续写[/color]：额外造成[b][color=#FF3300]2[/color][/b]点伤害",
+      "Entries": [
+        "013"
+      ]
+    },
+    "008": {
+      "Name": "《活着》",
+      "Night": "生命坚韧",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "获得[b][color=#00CC66]0[/color][/b]点护甲值\n[color=#FF6600]续写[/color]：额外获得[b][color=#00CC66]1[/color][/b]点护甲值",
+      "Entries": [
+        "013"
+      ]
+    },
+    "009": {
+      "Name": "《纯真年代》",
+      "Night": "社会束缚",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "提高[b][color=#FF3300]0[/color][/b]点执行力\n[color=#FF6600]续写[/color]：额外提高[b][color=#FF3300]1[/color][/b]点执行力",
+      "Entries": [
+        "013"
+      ]
+    },
+    "010": {
+      "Name": "《呐喊》",
+      "Night": "抗争精神",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "[color=#8B0000]激发[/color]：任意一张卡牌[color=#FF6600]续写[/color]层数≥[b]4[/b]\n造成[b][color=#FF3300]4[/color][/b]点伤害\n[color=#FF6600]续写[/color]：额外造成[b][color=#FF3300]4[/color][/b]点伤害",
+      "Entries": [
+        "001",
+        "013"
+      ]
+    },
+    "011": {
+      "Name": "《半生缘》",
+      "Night": "命运无常",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "2层；分支：\n手牌中带有[color=#FF6600]续写[/color]的卡牌层数[b]+2[/b]\n[color=#AA22FF]追忆[/color][b]1[/b]次",
+      "Entries": [
+        "009",
+        "012",
+        "013"
+      ]
+    },
+    "012": {
+      "Name": "《追忆似水年华》",
+      "Night": "时间与记忆",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[color=#AA22FF]领悟[/color]；[color=#AA22FF]追忆[/color][b]2[/b]次",
+      "Entries": [
+        "012",
+        "017"
+      ]
+    },
+    "013": {
+      "Name": "《地下室手记》",
+      "Night": "孤立与沉思",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：手牌仅有[b]1[/b]张\n你的所有卡牌的[color=#FF6600]续写[/color]层数[b]+2[/b]（无论在哪）",
+      "Entries": [
+        "001",
+        "013"
+      ]
+    },
+    "014": {
+      "Name": "《局外人》",
+      "Night": "荒谬主义",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "跳过你的下个回合，[color=#AA22FF]追忆[/color]至没有卡牌可以[color=#AA22FF]追忆[/color]",
+      "Entries": [
+        "012"
+      ]
+    },
+    "015": {
+      "Name": "《失乐园》",
+      "Night": "堕落与救赎",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "重置你所有卡牌的[color=#FF6600]续写[/color]层数，恢复[b][color=#0099FF]4[/color][/b]个时刻",
+      "Entries": [
+        "013"
+      ]
+    },
+    "016": {
+      "Name": "叙事结构",
+      "Night": "情节编织",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "[color=#AA22FF]追忆[/color][b]0[/b]次，[color=#0000FF]引导[/color]：额外[color=#AA22FF]追忆[/color][b]1[/b]次",
+      "Entries": [
+        "003",
+        "012"
+      ]
+    },
+    "017": {
+      "Name": "人物塑造",
+      "Night": "性格刻画",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "敌人后续[b]2[/b]个回合无法使用主动技能",
+      "Entries": []
+    },
+    "018": {
+      "Name": "主题意象",
+      "Night": "意象解析",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "3层；获得手牌中最低[color=#FF6600]续写[/color]层数的护甲值",
+      "Entries": [
+        "013"
+      ]
+    },
+    "019": {
+      "Name": "文体风格",
+      "Night": "语言艺术",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "手牌每有一个学科的卡牌，[color=#AA22FF]追忆[/color][b]1[/b]次",
+      "Entries": [
+        "012"
+      ]
+    },
+    "020": {
+      "Name": "符号学",
+      "Night": "被解释潜力",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "锁定1张手牌[b]2[/b]回合，解锁后获取一摸一样的复制",
+      "Entries": []
+    },
+    "021": {
+      "Name": "文本细读",
+      "Night": "细节分析",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "3层；造成[b][color=#FF3300]n[/color][/b]点伤害，n等同手牌种[color=#FF6600]续写[/color]层数总和\n[color=#0099FF]涌现[/color]：手牌中所有卡牌[color=#FF6600]续写[/color]层数[b]+1[/b]",
+      "Entries": [
+        "011",
+        "013"
+      ]
+    },
+    "022": {
+      "Name": "《红楼梦》",
+      "Night": "繁华幻灭",
+      "Rarity": "SSR",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：任意一张卡牌[color=#FF6600]续写[/color]层数≥[b]8[/b]\n移除所有构筑，造成[b][color=#FF3300]48[/color][/b]点伤害",
+      "Entries": [
+        "001",
+        "013"
+      ]
+    },
+    "023": {
+      "Name": "《伊利亚特》",
+      "Night": "英雄史诗",
+      "Rarity": "SSR",
+      "Type": "Efficiency",
+      "Description": "增加[b][color=#FF3300]2[/color][/b]点执行力\n[color=#FF6600]续写[/color]：额外增加[b][color=#FF3300]2[/color][/b]点执行力",
+      "Entries": [
+        "013"
+      ]
+    },
+    "024": {
+      "Name": "《哈姆雷特》",
+      "Night": "复仇与挣扎",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "[color=#8B0000]激发[/color]：任意一张卡牌[color=#FF6600]续写[/color]层数≥[b]8[/b]\n受到伤害时，造成[b][color=#FF3300]4[/color][/b]点伤害",
+      "Entries": [
+        "001",
+        "013"
+      ]
+    },
+    "025": {
+      "Name": "《尤利西斯》",
+      "Night": "意识流",
+      "Rarity": "SSR",
+      "Type": "Construct",
+      "Description": "每抽[b]1[/b]张牌造成[b][color=#FF3300]1[/color][/b]点伤害",
+      "Entries": [
+      ]
+    }
+  },
+  "Psychology": {
+    "001": {
+      "Name": "精神分析",
+      "Night": "未知领域",
+      "Rarity": "R",
+      "Description": "向卡组添加[b]1[/b]张[i]潜意识[/i]\n[b]成长[/b]：改为[b]2[/b]张",
+      "Type": "Construct",
+      "Entries": [
+        "007",
+        "023"
+      ]
+    },
+    "002": {
+      "Name": "内在动机",
+      "Night": "行为驱动",
+      "Rarity": "R",
+      "Description": "[b][color=#8B0000]期望[/color][/b]：一回合内使用[b]2[/b]张[i]潜意识[/i]；\n获得[b][color=#0099FF]1[/color][/b]层专注",
+      "Type": "Construct",
+      "Entries": [
+        "004",
+        "023"
+      ]
+    },
+    "003": {
+      "Name": "社会认知",
+      "Night": "认知过程",
+      "Rarity": "R",
+      "Description": "你的手牌中每有[b]1[/b]张潜意识，造成[b][color=#FF3300]2[/color][/b]点伤害\n[b]成长[/b]：改为[b]4[/b]点伤害",
+      "Type": "Construct",
+      "Entries": [
+        "007",
+        "023"
+      ]
+    },
+    "004": {
+      "Name": "发展心理学",
+      "Night": "规律思维",
+      "Rarity": "R",
+      "Description": "每剩余[b]1[/b]点未使用的专注力，向你的卡组添加[b]1[/b]张[i]潜意识[/i]",
+      "Type": "Study",
+      "Entries": [
+        "023"
+      ]
+    },
+    "005": {
+      "Name": "人格心理学",
+      "Night": "多样性",
+      "Rarity": "R",
+      "Description": "本回合每使用[b]1[/b]张不同学科的卡牌，向你的卡组添加[b]1[/b]张[i]潜意识[/i]",
+      "Type": "Study",
+      "Entries": [
+        "023"
+      ]
+    },
+    "006": {
+      "Name": "潜能开发",
+      "Night": "发展思维",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "向卡组添加[b]2[/b]张[i]潜意识[/i]，获得[color=#00CC66]一级坚韧[/color]，持续一回合",
+      "Entries": [
+        "015",
+        "023"
+      ]
+    },
+    "007": {
+      "Name": "依恋风格",
+      "Night": "关系模式",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "[color=#8B0000]期望[/color]：一回合内使用[b]2[/b]张[i]潜意识[/i]\n获得[b][color=#00CC66]1[/color][/b]点护甲",
+      "Entries": [
+        "004",
+        "023"
+      ]
+    },
+    "008": {
+      "Name": "压力识别",
+      "Night": "信息获取",
+      "Rarity": "R",
+      "Type": "Study",
+      "Description": "受到伤害时，从手牌弃掉[b]1[/b]张[i]潜意识[/i]来免疫这次伤害",
+      "Entries": [
+        "023"
+      ]
+    },
+    "009": {
+      "Name": "情绪识别",
+      "Night": "风险意识",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：连续使用[b]3[/b]张[i]潜意识[/i]\n向卡组添加[b]4[/b]张[i]潜意识[/i]",
+      "Entries": [
+        "001",
+        "023"
+      ]
+    },
+    "010": {
+      "Name": "心理测评",
+      "Night": "决策分析",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：卡组中有≥[b]8[/b]张[i]潜意识[/i]\n恢复[b][color=#0099FF]4[/color][/b]个时刻",
+      "Entries": [
+        "001",
+        "023"
+      ]
+    },
+    "011": {
+      "Name": "自我激励",
+      "Night": "积极思维",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "3层；[color=#0000FF]连锁[/color]，恢复[b][color=#0099FF]1[/color][/b]个时刻\n[color=#0099FF]涌现[/color]：卡组中每有[b]1[/b]张[i]潜意识[/i]，造成[b][color=#FF3300]4[/color][/b]点伤害",
+      "Entries": [
+        "010",
+        "011",
+        "023"
+      ]
+    },
+    "012": {
+      "Name": "学习与记忆",
+      "Night": "巩固思维",
+      "Rarity": "R",
+      "Type": "Action",
+      "Description": "3层；[color=#0000FF]连锁[/color]，受到[b][color=#0099FF]1[/color][/b]个时刻的伤害\n[color=#0099FF]涌现[/color]：卡组中每有[b]1[/b]张[i]潜意识[/i]，造成[b][color=#FF3300]8[/color][/b]点伤害",
+      "Entries": [
+        "010",
+        "011",
+        "023"
+      ]
+    },
+    "013": {
+      "Name": "情感支持",
+      "Night": "共情思维",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "向卡组添加[b]1[/b]张[i]潜意识[/i]；[color=#0099FF]滞留3[/color]",
+      "Entries": [
+        "002",
+        "023"
+      ]
+    },
+    "014": {
+      "Name": "归因理论",
+      "Night": "行为解释",
+      "Rarity": "R",
+      "Type": "Efficiency",
+      "Description": "敌人每有[b]1[/b]个活动，向卡组添加[b]2[/b]张[i]潜意识[/i]",
+      "Entries": [
+        "023"
+      ]
+    },
+    "015": {
+      "Name": "催眠疗法",
+      "Night": "健康维护",
+      "Rarity": "R",
+      "Type": "Normal",
+      "Description": "跳过你的下一个回合，获得[color=#00CC66]四级坚韧[/color]，持续一回合，向卡组添加[b]4[/b]张[i]潜意识[/i]",
+      "Entries": [
+        "015",
+        "023"
+      ]
+    },
+    "016": {
+      "Name": "正念训练",
+      "Night": "专注力",
+      "Rarity": "SR",
+      "Type": "Construct",
+      "Description": "[color=#8B0000]期望[/color]：手牌仅有[i]潜意识[/i]；\n造成[b][color=#FF3300]8[/color][/b]点伤害；[color=#AA22FF]失衡4[/color]",
+      "Entries": [
+        "004",
+        "006",
+        "023"
+      ]
+    },
+    "017": {
+      "Name": "认知心理学",
+      "Night": "认知过程",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "3层；手牌每有[b]1[/b]张[i]潜意识[/i]，向卡组添加[b]1[/b]张[i]潜意识[/i]",
+      "Entries": [
+        "023"
+      ]
+    },
+    "018": {
+      "Name": "认知偏差",
+      "Night": "过程决策",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "手牌中每有[b]1[/b]张其他学科卡牌，向卡组添加[b]2[/b]张[i]潜意识[/i]",
+      "Entries": [
+        "023"
+      ]
+    },
+    "019": {
+      "Name": "脑电图技术",
+      "Night": "可视化",
+      "Rarity": "SR",
+      "Type": "Normal",
+      "Description": "[color=#8B0000]激发[/color]：连续抽到[b]3[/b]张[i]潜意识[/i]\n对敌人添加[b]4[/b]层[color=#00CC66]易伤[/color]",
+      "Entries": [
+        "023",
+        "024"
+      ]
+    },
+    "020": {
+      "Name": "神经可塑性",
+      "Night": "巩固思维",
+      "Rarity": "SR",
+      "Type": "Action",
+      "Description": "4层；[color=#0000FF]连锁[/color]，手牌每有[b]1[/b]张[i]潜意识[/i]，获得[b][color=#00CC66]1[/color][/b]点护甲",
+      "Entries": [
+        "010",
+        "023"
+      ]
+    },
+    "021": {
+      "Name": "自尊",
+      "Night": "自信",
+      "Rarity": "SR",
+      "Type": "Efficiency",
+      "Description": "弃掉最多[b]5[/b]张[i]潜意识[/i]，每弃[b]1[/b]张，造成[b][color=#FF3300]8[/color][/b]点伤害",
+      "Entries": [
+        "023"
+      ]
+    },
+    "022": {
+      "Name": "脑机接口",
+      "Night": "神经链接",
+      "Rarity": "SSR",
+      "Type": "Construct",
+      "Description": "[i]潜意识[/i]可造成[b][color=#FF3300]3[/color][/b]点伤害",
+      "Entries": [
+        "023"
+      ]
+    },
+    "023": {
+      "Name": "基因心理学",
+      "Night": "演变思维",
+      "Rarity": "SSR",
+      "Type": "Study",
+      "Description": "每使用[b]2[/b]张[i]潜意识[/i]，向卡组添加[b]1[/b]张",
+      "Entries": [
+        "023"
+      ]
+    },
+    "024": {
+      "Name": "数字化情感管理",
+      "Night": "智能化",
+      "Rarity": "SSR",
+      "Type": "Action",
+      "Description": "4层，将[i]潜意识[/i]和[i]空白卡[/i]变为随机心理学卡牌",
+      "Entries": [
+        "023",
+        "026"
+      ]
+    },
+    "025": {
+      "Name": "量化自我",
+      "Night": "数据驱动",
+      "Rarity": "SSR",
+      "Type": "Efficiency",
+      "Description": "从卡组中抽取[b]4[/b]张[i]潜意识[/i]",
+      "Entries": [
+        "023"
+      ]
+    }
+  }
 }
